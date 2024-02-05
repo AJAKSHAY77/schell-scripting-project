@@ -1,0 +1,26 @@
+#!/bin/bash
+
+
+############
+
+#project 1 = making digital watch
+#author = akshay jain
+
+#####################
+
+RED="\e[31m"
+GREEN="\e[32m"
+ENDCOLOR="\e[0m"
+
+echo project 1 - Digital watch
+while true
+
+do
+
+   echo project 1 - Digital watch
+   clear
+   echo -e $RED $(date +%T)
+   sleep 1s
+
+done
+
